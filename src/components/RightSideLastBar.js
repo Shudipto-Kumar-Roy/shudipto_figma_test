@@ -2,6 +2,9 @@ import React from "react";
 import headset from "../imges/headset.png";
 import headset1 from "../imges/headse2.png";
 import radio from "../imges/radio.png";
+import music from "../imges/music.png";
+import disk from "../imges/disc.png";
+import cd from "../imges/cd.png";
 const RightSideLastBar = () => {
   return (
     <div>
@@ -37,17 +40,17 @@ const RightSideLastBar = () => {
           <div className="w-[40%] flex items-center gap-x-1">
             <img
               className="w-10 rounded-full bg-[#D9D9D9] p-1"
-              src={radio}
+              src={music}
               alt=""
             />
             <img
               className="w-10 rounded-full bg-[#D9D9D9] p-1"
-              src={headset}
+              src={disk}
               alt=""
             />
             <img
               className="w-10 rounded-full bg-[#D9D9D9] p-1"
-              src={headset1}
+              src={cd}
               alt=""
             />
           </div>
