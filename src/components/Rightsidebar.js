@@ -10,7 +10,6 @@ const Rightsidebar = () => {
         <RightTopbar />
         <RightSideMiddlebar />
         <RightSideLastMiddlebar />
-        
       </div>
     </div>
   );

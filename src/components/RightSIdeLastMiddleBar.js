@@ -109,13 +109,11 @@ const RightSideLastMiddlebar = () => {
                 </SwiperSlide>
               ))}
           </Swiper>
+          <RightSideLastBar />
         </div>
         <div className="w-[30%]">
           <DailyDeals products={products} />
         </div>
-      </div>
-      <div>
-        <RightSideLastBar />
       </div>
     </>
   );

@@ -24,7 +24,7 @@ const Leftsidebar = () => {
           ))}
       </div>
 
-      <div className="w-[236px] h-[229px] bg-[#44E50B8C] relative flex flex-col justify-center items-center">
+      <div className="w-[236px] h-[229px] bg-[#44E50B8C] rounded-lg relative flex flex-col justify-center items-center">
         <img className="absolute top-0 left-0 -z-10" src={vector1} alt="" />
         <img className="absolute bottom-0 right-0 -z-10" src={vector2} alt="" />
 
